@@ -67,7 +67,7 @@ const Homepage = () => {
         <img className="grid-image" src={About} alt="about"></img>
         <img className="grid-image" src={Portfolio} alt="portfolio"></img>
         <img className="grid-image" src={CV} alt="cv"></img>
-        <img className="grid-image" src={Contact} alt="contact"></img>
+        <img className="grid-image1" src={Contact} alt="contact"></img>
       </div>
 
       <div className="text-container">
