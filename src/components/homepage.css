@@ -95,6 +95,7 @@ h1 {
   color: #1383cb;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 
 
