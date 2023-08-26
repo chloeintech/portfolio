@@ -1,0 +1,85 @@
+@font-face {
+    font-family: TTFors;
+    src: url(./font/ttfors.woff);
+  }
+  
+  @font-face {
+    font-family: TTForsBold;
+    src: url(./font/ttforsbold.woff);
+  }
+  .scrolling-banner-container {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    padding-top: 2%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .scrolling-banner-container {
+      padding-top: 10%;
+      height: 150px; 
+    }
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    grid-column-gap: 2%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    height: 275px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding-top: 10%;
+   
+    }
+  }
+  
+  .grid-image {
+    height: 35%;
+    cursor: hand;
+  }
+  
+  .text-container {
+    padding-top: 4%;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  
+  h1 {
+    font-family: TTFors;
+    font-size: 16px;
+    color: #1383cb;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .social-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    grid-column-gap: 1%;
+    padding-top: 1px;
+    height: 20px;
+  }
+  
+  
+  .social-image {
+    height: 15%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .social-image {
+      height: 40%
+  
+  
+    } 
+    }
