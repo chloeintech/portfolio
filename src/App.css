@@ -1,3 +1,10 @@
 body {
-   background-color: #FFF8ED;
+  background-color: #fff8ed;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+

@@ -1,0 +1,159 @@
+
+/* .navbar {
+  background-color: #fff8ed;
+  position: sticky;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-top: 2rem;
+  margin-left: 5vw;
+} */
+
+/* .navleft {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  color: #1383cb;
+  margin-right: 4rem;
+  font-size: 2rem;
+  background: none;
+} */
+
+/* .navright{
+  float: right;
+  width: 50%;
+} */
+.social-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-content: space-between;
+  margin-left: 75vw;
+  grid-column-gap: 8%;
+}
+
+.social-image {
+  height: 2.5rem;
+}
+
+.social-image {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.social-image:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+.x-bars {
+  color: #ff9045;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #1383cb;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -100%;
+  padding-top: 1rem;
+  margin-left: 0;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  font-family: TTFors;
+  font-size: 2rem;
+  color: #fff8ed;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 5px;
+}
+
+/* .nav-text a:hover {
+    background-color: #1a83ff;
+  } */
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #1383cb;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
+@media screen and (max-width: 720px) {
+
+.navbar{
+  background-color: #fff8ed;
+  position: sticky;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-top: 2rem;
+}
+
+.navleft {
+  float: left;
+  width: 50%;
+  margin-left: 5vw;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  color: #1383cb;
+  background: none;
+}
+
+.navright{
+  float: right;
+  width: 50%;
+  margin-right: 5vw;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+}

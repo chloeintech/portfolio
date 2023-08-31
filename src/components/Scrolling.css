@@ -1,27 +1,24 @@
-body {
+/* body {
     background-color: #FFF8ED;
   }
   
   @font-face {
     font-family: TTFors;
-    src: url(./font/ttfors.woff);
+    src: url(../components/font/ttfors.woff);
   }
   
-  @font-face {
-    font-family: TTForsBold;
-    src: url(./font/ttforsbold.woff);
-  }
   
   .scrolling-banner-container {
+    padding: 0;
     display: flex;
     flex-direction: row;
     height: 100px;
-    padding-top: 5%;
+    position: relative;
+    z-index: 0;
   }
   
   @media screen and (max-width: 600px) {
     .scrolling-banner-container {
-      padding-top: 10%;
       height: 150px;
     }
   }
@@ -95,9 +92,7 @@ body {
     color: #1383cb;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    animation: name duration timing-function delay iteration-count direction fill-mode;
   }
-  
   
   @media screen and (max-width: 600px) {
     h1 {
@@ -109,8 +104,6 @@ body {
   
     }
   }
-  
-  
   .social-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -144,4 +137,4 @@ body {
       
     }
   }
-  
+   */
