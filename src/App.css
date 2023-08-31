@@ -2,62 +2,9 @@ body {
   background-color: #fff8ed;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap");
-
-@font-face {
-  font-family: TTFors;
-  src: url(components/font/ttfors.woff);
-}
-
-@font-face {
-  font-family: TTForsBold;
-  src: url(components/font/ttforsbold.woff);
-}
-
-@font-face {
-  font-family: TTForsExtraBold;
-  src: url(components/font/ttforsextrabold.woff);
-}
-
-@font-face {
-  font-family: TTForsExtraBold;
-  src: url(components/font/ttforsextrabold.woff);
-}
-
 * {
   margin: 0;
   padding: 0;
-  font-family: TTFors;
 }
 
-h1 {
-  font-family: 'Radley', serif;;
-  font-size: 60px;
-  color: #1383cb;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
 
-h2 {
-  font-family: TTFors;
-  font-size: 20px;
-  color: #1383cb;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-h3 {
-  font-family: TTFors;
-  font-size: 20px;
-  color: #1383cb;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-h4 {
-  font-family: TTFors;
-  font-size: 20px;
-  color: #1383cb;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}

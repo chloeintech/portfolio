@@ -1,22 +1,59 @@
-.navbar {
+
+/* .navbar {
   background-color: #fff8ed;
   position: sticky;
-  height: 80px;
+  height: 40px;
   display: flex;
-  justify-content: start;
-  align-items: center;
-}
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-top: 2rem;
+  margin-left: 5vw;
+} */
 
-.menu-bars {
-  color: #ff9045;
-  margin-left: 2rem;
+/* .navleft {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  color: #1383cb;
+  margin-right: 4rem;
   font-size: 2rem;
   background: none;
+} */
+
+/* .navright{
+  float: right;
+  width: 50%;
+} */
+.social-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-content: space-between;
+  margin-left: 75vw;
+  grid-column-gap: 8%;
 }
+
+.social-image {
+  height: 2.5rem;
+}
+
+.social-image {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.social-image:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 
 .x-bars {
   color: #ff9045;
   margin-left: 2rem;
+  margin-top: 1rem;
   font-size: 2rem;
   background: none;
 }
@@ -26,7 +63,7 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -43,7 +80,7 @@
 
 .nav-text {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   padding: 8px 0px 8px 16px;
   list-style: none;
@@ -85,4 +122,38 @@
 
 span {
   margin-left: 16px;
+}
+
+@media screen and (max-width: 720px) {
+
+.navbar{
+  background-color: #fff8ed;
+  position: sticky;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-top: 2rem;
+}
+
+.navleft {
+  float: left;
+  width: 50%;
+  margin-left: 5vw;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  color: #1383cb;
+  background: none;
+}
+
+.navright{
+  float: right;
+  width: 50%;
+  margin-right: 5vw;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
 }

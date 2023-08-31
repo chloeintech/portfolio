@@ -42,7 +42,7 @@ body {
       gap: 25px;
       flex-direction: column;
       height: 100%;
-      padding-top: 10%;
+      padding-top: 4vh;
       
     }
   }
@@ -64,71 +64,12 @@ body {
       transform: scale(1.05);
   }
   
-  .text-container {
-    padding-top: 6%;
-    text-align: center;
-    padding-right: 10%;
-    padding-left: 10%;
-  }
-  
-  h1 {
-    font-family: TTFors;
-    font-size: 20px;
-    color: #1383cb;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    animation: name duration timing-function delay iteration-count direction fill-mode;
-  }
-  
-  
-  @media screen and (max-width: 600px) {
-    h1 {
-      font-family: TTFors;
-      font-size: 25px;
-      color: #1383cb;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-  
-    }
-  }
+
   
   .span{
     font: TTForsBold;
     font-weight: 800;
   }
   
-  .social-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: center;
-    grid-column-gap: 1%;
-    padding-top: 10px;
-    height: 20px;
-  }
-  
-  .social-image {
-    height: 25%;
-  }
-  
-  .social-image {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-      -webkit-transition: .3s ease-in-out;
-      transition: .3s ease-in-out;
-  }
-  
-  .social-image:hover {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-  }
-  
-  
-  @media screen and (max-width: 600px) {
-    .social-image {
-      padding-top: 3%;
-      height: 30%;
-      
-    }
-  }
   
  
